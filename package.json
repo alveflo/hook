@@ -1,0 +1,34 @@
+{
+  "name": "cpthook",
+  "version": "0.0.1",
+  "description": "API faker and data generator",
+  "main": "hook/hook.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha --recursive"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/victorzki/hook.git"
+  },
+  "keywords": [
+    "api",
+    "fake",
+    "faker"
+  ],
+  "author": "Victor Alveflo <victor.alveflo@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/victorzki/hook/issues"
+  },
+  "homepage": "https://github.com/victorzki/hook#readme",
+  "dependencies": {
+    "chai": "^3.5.0",
+    "colors": "^1.1.2",
+    "express": "^4.13.4",
+    "faker": "^3.1.0",
+    "mocha": "^2.4.5"
+  }
+}
