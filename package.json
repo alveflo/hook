@@ -1,10 +1,13 @@
 {
   "name": "cpthook",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "description": "API faker and data generator",
   "main": "hook/hook.js",
   "directories": {
     "test": "test"
+  },
+  "bin": {
+    "hook": "index.js"
   },
   "scripts": {
     "test": "mocha --recursive"
@@ -29,6 +32,8 @@
     "colors": "^1.1.2",
     "express": "^4.13.4",
     "faker": "^3.1.0",
-    "mocha": "^2.4.5"
+    "jsonfile": "^2.3.1",
+    "mocha": "^2.4.5",
+    "underscore": "^1.8.3"
   }
 }
