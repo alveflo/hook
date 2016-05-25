@@ -3,7 +3,7 @@
 <h1 align="center">Captain Hook</h1>
 </p>
 <p align="center">
-<a href="https://travis-ci.org/victorzki/hook.svg?branch=master"><img src="https://travis-ci.org/victorzki/hook.svg?branch=master"></a>
+<a href="https://travis-ci.org/victorzki/hook"><img src="https://travis-ci.org/victorzki/hook.svg?branch=master"></a>
 <a href="https://badge.fury.io/js/cpthook"><img src="https://badge.fury.io/js/cpthook.svg"></a>
 </p>
 
