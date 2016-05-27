@@ -8,7 +8,7 @@ module.exports = function() {
         "repeat": 10,
         "data": {
           "name": "{{name.firstName}}",
-          "lastname": " {{name.lastName}}",
+          "lastname": "{{name.lastName}}",
           "email": "{{internet.email}}"
         }
       },
