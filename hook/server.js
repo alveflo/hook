@@ -9,6 +9,7 @@ module.exports = {
         dir = process.cwd(),
         watcher = require("./watcher.js");
         _ = require('underscore'),
+        open = require('open'),
         cheerio = require('cheerio');
 
     var timestamp = function() {
@@ -50,6 +51,10 @@ module.exports = {
       }
     });
     app.listen(port);
+    // Try to load browser...
+    try {
+      open("http://localhost:" + port);
+    } catch(ex) {}
     watcher(directory);
   }
 }
