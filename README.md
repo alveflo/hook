@@ -15,9 +15,9 @@ $ (sudo) npm install cpthook --global
 ## Getting started
 ```
 $ hook init
-$ hook serve
+$ (sudo) hook serve
 ```
-That's basically all there's to it.
+That's basically all there's to it. Note that if you're running unix, you might need to run `hook serve` with elevated privileges due to the fs file changes watcher, hence the `sudo`.
 ## Options
 ```
 
@@ -69,9 +69,9 @@ The configuration file consists of objects that must contain
 - `repeat` how many json objects to fake. Defaults to 1 (one)
 - `data` the data to respond with
 
-Next up, we're ready to sail away;
+Next up, we're ready to sail away (Again - note that if you're running unix, you might need to run `hook serve` with elevated privileges due to the fs file changes watcher, hence the `sudo`.);
 ```
-$ hook serve
+$ (sudo) hook serve
 ```
 a `GET /companies` will (with configuration above) respond with:
 ```json
